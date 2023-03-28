@@ -1,5 +1,5 @@
 function db_data_count () {
-    return data.length
+    return db.length
 }
 
 function db_get_headers () {
@@ -24,4 +24,8 @@ function db_get_keys () {
         'gender',
         'preferred_language'
     ]
+}
+
+function db_get_data (start, end) {
+    return db.slice(start, end);
 }
