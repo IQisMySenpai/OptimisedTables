@@ -4,25 +4,25 @@ function db_data_count () {
 
 function db_get_headers () {
     return [
+        'ID',
         'First Name',
         'Last Name',
-        'Age',
-        'Favorite Food',
-        'Favorite Drink',
-        'Gender',
-        'Preferred Language'
+        'Email',
+        'City',
+        'Birthday',
+        'Favorite Color'
     ]
 }
 
 function db_get_keys () {
     return [
+        'id',
         'first_name',
         'last_name',
-        'age',
-        'favorite_food',
-        'favorite_drink',
-        'gender',
-        'preferred_language'
+        'email',
+        'city',
+        'birthday',
+        'favorite_color'
     ]
 }
 
